@@ -1,0 +1,42 @@
+.wishlist {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 1300px; /* Adjust according to header height */
+  text-align: center;
+}
+
+.main-heading {
+  color: #5a360d;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.product {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.address, .price {
+  margin-top: 10px;
+  color: #5a360d;
+}

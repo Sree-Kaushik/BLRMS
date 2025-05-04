@@ -1,0 +1,93 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #eddec4;
+  font-family: Arial, sans-serif;
+}
+
+
+.logo-signup {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0px; /* Adjust top position as needed */
+  left: 0px; /* Adjust left position as needed */
+  border-radius: 50%;
+  transition: opacity 0.3s;
+  z-index: 100;
+}
+
+.sign-up-container {
+  width: 400px; /* Adjust width as needed */
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.logo-signup:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.signup-text {
+  color: #7d4b11;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.firstname-input,
+.lastname-input,
+.phone-input,
+.email-input,
+.gender-input,
+.dateofbirth-input,
+.ua-input,
+.password-input,
+.repeatpassword-input {
+  width: calc(100% - 20px);
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  border-radius: 5px;
+  border: 2px solid #ccc; /* Changed border style for a cleaner look */
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #5a360d;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 1;
+}
+
+.already-account,
+.sign-link {
+  text-align: center;
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.sign-link a {
+  color: #5a360d;
+  text-decoration: none;
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eddec4;
+}
+
+.wishlist {
+    max-width: 1200px;
+    margin: 0;
+    height: auto;
+}
+
+.wishlist h1 {
+    top: 18%;
+    height: 50px;
+    text-align: left;
+    color: #5a360d;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 170px;
+}
+
+.product {
+    height: auto;
+    max-width: 340px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product img {
+    max-width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.owner-name, .address, .price {
+    margin-top: 10px;
+    align-self: center;
+    color: #5a360d;
+}
+
+.main-heading {
+    text-align: center;
+    color: #333;
+    position: absolute;
+}

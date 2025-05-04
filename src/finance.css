@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: hsl(38, 53%, 85%);
+  color: #5a360d;
+}
+
+.finance-container {
+  width: 1000px; /* Increased width */
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.finance-land-details {
+  display: flex;
+  align-items: center;
+}
+
+.finance-land-details img {
+  max-width: 200px; /* Increased image size */
+  height: 200px;
+  margin-right: 30px; /* Increased margin */
+  margin-bottom: 30px;
+}
+
+.finance-details p {
+  margin: 5px 0;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.finance-price-section, .finance-taxes-section, .finance-total-amount {
+  margin-bottom: 20px;
+}
+.finance-taxes-title {
+  margin-bottom: 20px; /* Adjust this value to increase or decrease spacing */
+}
+.finance-property-tax,
+.finance-registration-tax,
+.finance-service-tax {
+    margin-bottom: 20px; /* Adjust this value to increase or decrease spacing */
+}
+
+
+.finance-buy-button {
+  text-align: right;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  background-color: #5a360d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #795935;
+}
+
+.finance-header-div {
+  width: 100%;
+  height: 100px;
+  background-color: #5a360d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow */
+}
+
+.finance-logo {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 50%;
+  transition: opacity 0.3s;
+}
+
+.finance-logo:hover {
+  cursor: pointer;
+}
+
+.finance-logo:active {
+  opacity: 0.5;
+}
+
+.finance-search-bar {
+  width: 25%;
+  height: 40px;
+  position: absolute;
+  left: 63%;
+  border: none;
+  border-radius: 15px;
+  background-color: #eddec4;
+  font-size: 20px;
+  text-align: center;
+  color: #5a360d;
+}
+
+.finance-heading-css {
+  color: #eddec4;
+  position: absolute;
+  left: 8%;
+  font-size: 30px;
+  align-self: center;
+}
+
+.finance-profile-css {
+  position: absolute;
+  right: 5%;
+  color: #eddec4;
+  transition: opacity 0.3s;
+}
+
+.finance-profile-css:hover {
+  cursor: pointer;
+}
+
+.finance-profile-css:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #eddec4;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #5a360d;
+}
+.container-css {
+    width: 80%;
+    height: 170%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1
+{
+    font-size: 80px;
+}
+h2 {
+    font-size: 80px;
+    margin: 2px 0;
+    margin-bottom: 20px;
+    color: #5a360d;
+}
+.left-aligned {
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #5a360d;
+}
+.subheading {
+    font-size: 35px;
+    margin: 10px 0;
+    color: #5a360d;
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.image-wrapper {
+    border: 2px solid #5a360d;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+    gap: 5px;
+}
+.image-wrapper img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.image-wrapper:hover {
+    background-color: #69451b;
+    border-color: #eedece;
+    color: white;
+}
+.show-more-button {
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color: #5a360d;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-radius: 5px;
+}
+.show-more-button:hover {
+    background-color: #eedece;
+    color: #fff;
+}
+.show-more-button:active {
+    opacity: 0.5;
+}
+.wishlist-button-css {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #5a360d;
+}
+.wishlist-button-css:hover {
+    background-color: #855f34;
+    color: #fff;
+}
+.wishlist-button-css:active {
+    opacity: 0.5;
+}

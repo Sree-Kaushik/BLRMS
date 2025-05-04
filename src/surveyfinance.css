@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #eddec4;
+  color: #5a360d;
+}
+
+.container-css2 {
+  width: 1000px; /* Increased width */
+  height: 270px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.land-details-css {
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.details p {
+  margin: 10px 20px;
+}
+
+hr {
+  margin: 20px 0;
+}
+.price-section p
+{
+  margin-top: 20px;
+}
+.proceed-btn
+{
+  position: absolute;
+  left: 40%;
+  width: 20%;
+  border: none;
+  text-align: center;
+  background-color: #795935;
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+}
+.proceed-btn:hover
+{
+  background-color: #5a360d;
+}
+.image-upload
+{
+  gap: 10px;
+  width: 12%;
+  height: 150px; /* Adjusted image height */
+  object-fit:contain;
+  border-radius: 10px 10px 0 0;
+}

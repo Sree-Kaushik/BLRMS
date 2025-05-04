@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eedec5;
+}
+
+.main-container {
+    width: 170vh;
+    padding: 20px;
+    display: grid;
+    gap: 50px;
+    margin-left: -200px;
+    grid-template-columns: 3fr; /* Adjusted column width */
+}
+
+h1.survey-title {
+    text-align: center;
+    color: #63410a;
+    position: relative;
+    top: 30%;
+}
+
+.search-bar {
+    display: block;
+    top: 12%;
+    left: 30%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.properties-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px;
+}
+
+.property-item {
+    width: calc(30% - 20px); /* Adjusted to fit three items per row with margins */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.property-image {
+    width: 100%;
+    height: 200px; /* Adjusted image height */
+    object-fit:contain;
+    border-radius: 10px 10px 0 0;
+}
+
+.property-item h2 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.property-item p {
+    margin: 10px 0;
+}
+
+.approval-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.approval-buttons button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%; /* Adjusted button width */
+}
+
+/* Specific styles for approve and disapprove buttons */
+.approval-buttons button.approve {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.approval-buttons button.disapprove {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.approval-buttons button.approve:hover {
+    background-color: #218838;
+}
+
+.approval-buttons button.disapprove:hover {
+    background-color: #c82333;
+}
+.approve-button
+{
+    background-color: #28a745;
+}
+.disapprove-button
+{
+    background-color: #dc3545;
+}
+.signout-button
+{
+    background-color:#63410a ;
+    position: absolute;
+    right: 2%;
+    top: 7%;
+    color: #eedec5;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
